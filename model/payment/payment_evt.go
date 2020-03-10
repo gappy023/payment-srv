@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	proto "microservice/part1/payment-srv/proto/payment"
+	proto "github.com/gappy023/payment-srv/proto/payment"
 
 	"github.com/google/uuid"
 	log "github.com/micro/go-micro/v2/logger"

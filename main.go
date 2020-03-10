@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"microservice/part1/payment-srv/handler"
+
+	"github.com/gappy023/payment-srv/handler"
 
 	payment "github.com/gappy023/payment-srv/proto/payment"
 

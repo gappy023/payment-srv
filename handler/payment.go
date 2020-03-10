@@ -3,8 +3,8 @@ package handler
 import (
 	"context"
 
-	proto "microservice/part1/payment-srv/proto/payment"
-	"microservice/payment-srv/model/payment"
+	"github.com/gappy023/payment-srv/model/payment"
+	proto "github.com/gappy023/payment-srv/proto/payment"
 
 	log "github.com/micro/go-micro/v2/logger"
 )
