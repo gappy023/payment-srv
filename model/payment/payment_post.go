@@ -7,7 +7,7 @@ import (
 	"github.com/gappy023/basic/common"
 	"github.com/gappy023/basic/db"
 	invS "github.com/gappy023/inventory-srv/proto/inventory"
-	ordS "github.com/gappy023/orders-srv/proto/orders"
+	ordS "github.com/gappy023/orders-srv/proto/order"
 	log "github.com/micro/go-micro/v2/logger"
 )
 
