@@ -4,8 +4,9 @@ import (
 	"context"
 	"time"
 
+	proto "microservice/part1/payment-srv/proto/payment"
+
 	"github.com/google/uuid"
-	proto "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/payment-srv/proto/payment"
 	log "github.com/micro/go-micro/v2/logger"
 )
 

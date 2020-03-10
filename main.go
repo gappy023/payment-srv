@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 	"microservice/part1/payment-srv/handler"
-	payment "microservice/part1/payment-srv/proto/payment"
-	"microservice/part1/user-srv/basic"
-	"microservice/part1/user-srv/model"
+
+	payment "github.com/gappy023/payment-srv/proto/payment"
+
+	"github.com/gappy023/basic"
+	"github.com/gappy023/payment-srv/model"
 
 	config "github.com/gappy023/basic/config"
 	cli "github.com/micro/cli/v2"
